@@ -5,3 +5,12 @@ require.context('../stylesheets/', true, /\.(css|scss)$/i)
 
 // JavaScript
 //TODO
+import "bootstrap"
+
+function displayMessage() {
+    var txt = document.getElementById("name").value;
+    alert("Welcome " + txt);
+}
+function reset() {
+    document.getElementById("form").reset();
+}
